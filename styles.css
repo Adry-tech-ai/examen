@@ -1,0 +1,65 @@
+body {
+    background-color: #d1d1d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 300px;
+}
+.tarjeta {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-inline: 16px;
+    border-radius: 15px;
+    padding: 0;
+}
+.superior {
+    background-color: #db5858;
+    margin:0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.circulo {
+    padding: 4px 8px 4px 8px;
+    margin-right: 10px; 
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.encabezado {
+    display: flex;
+    justify-content: start;
+}
+.serie {
+    margin-left: 80px;
+    display: flex;
+    justify-content: end;
+}
+.medio {
+    padding: 20px 10px 20px 10px;
+    display: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: start;
+    border-bottom: 2px solid hsl(0, 1%, 69%);
+}
+.inferior {
+    margin-left: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+.informe_actu {
+    color: #a8a6a6;
+}
+.fecha {
+    margin-left: 140px;
+    color: #a8a6a6;
+}
